@@ -55,10 +55,10 @@ def count_most(lines, bit_idx):
 
 
 def solver_problem2(input_list):
-    """input code list"""
+    """input code list and return oxygen/co2 rating"""
     # for i in range(len(input_list[0])):
     # (1) walk through curr list, get most bit
-    # (2) walk through curr list, delete(append) list with most bit
+    # (2) walk through curr list, keep list idx with most/least bit
     # (3) update curr list
     oxygen_list = input_list.copy()
     while len(oxygen_list) > 1:
