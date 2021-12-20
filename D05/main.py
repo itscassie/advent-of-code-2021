@@ -3,7 +3,7 @@ import numpy as np
 
 
 def parse_input(txt_path, diag=False):
-    """parse input TXT file to number list and list of bingo tables"""
+    """parse input TXT file to filtered coordinates list"""
     with open(txt_path, encoding="UTF-8") as file:
         coordinate_list = []
         for line in file:
