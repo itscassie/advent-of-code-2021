@@ -75,7 +75,6 @@ def solver_problem2(inputs, low_points):
 
 
 if __name__ == "__main__":
-    # inp_points = parse_input("./input/d09_example.txt")
     inp_points = parse_input("./input/d09.txt")
 
     r_level, l_points = solver_problem1(inp_points)
